@@ -1,0 +1,7 @@
+<Employee xmlns="http://schemas.datacontract.org/2004/07/RESTService" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<Id>2</Id>
+<FirstName>Errol</FirstName>
+<LastName>Smith</LastName>
+<Department>IT</Department>
+<Salary>25000.00</Salary>
+</Employee>
