@@ -9,7 +9,7 @@ namespace RESTService
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            //RouteTable.Routes.Add(new ServiceRoute("RestService", new WebServiceHostFactory(), typeof(RESTSerivce)));
+            RouteTable.Routes.Add(new ServiceRoute("RestService", new WebServiceHostFactory(), typeof(RESTSerivce)));
         }
 
         protected void Session_Start(object sender, EventArgs e)
